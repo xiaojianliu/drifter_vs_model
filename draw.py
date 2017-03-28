@@ -10,7 +10,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 import csv
-drifter_list='bar.csv'
+drifter_list='drifter_vs_model use hourly data.csv'
 #mend_list='bar1.csv'
 drifters = np.genfromtxt(drifter_list,dtype=None,names=['ids','lon','lat','s','d'],delimiter=',',skip_header=1)
 #mend = np.genfromtxt(mend_list,dtype=None,names=['ids','lon','lat','s','d'],delimiter=',',skip_header=1)   
