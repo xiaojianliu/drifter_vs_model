@@ -258,7 +258,7 @@ for w in range(0,len(data),1):
     tdata.append(ldata)
             
 chat=map(list, zip(*tdata))  
-csvfile = file('drifter_vs_model use hourly data7.csv', 'wb')
+csvfile = file('drifter_vs_model use hourly data.csv', 'wb')
 writer = csv.writer(csvfile)
 fh=['ids']
 fh.append('lon')
